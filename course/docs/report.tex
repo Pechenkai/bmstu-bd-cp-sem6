@@ -1,8 +1,10 @@
 \documentclass[a4paper,14pt]{extreport}
-\include{(1)preambula}
+\input{(1)preambula}
 
 \begin{document}
-    \includepdf[pages=1]{title}
+%    \includepdf[pages=1]{title}
+%    \includepdf[pages=1-3]{title.pdf}
+     \includepdf[pages=1]{titul.pdf}
 
     \setcounter{page}{4}
     \include{(13)referat}
@@ -16,11 +18,11 @@
     \include{(12)abbrv}
     \include{(2)intro}
     \include{(3)analytical}
-%    \include{(4)design_part}
-%    \include{(5)tech_part}
-%    \include{(6)research}
-%    \include{(7)conclusion}
+    \include{(4)design_part}
+    \include{(5)tech_part}
+    \include{(6)research}
+    \include{(7)conclusion}
 
     \include{library}
-%	\include{(14)addict}
+	\include{(14)addict}
 \end{document}
